@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SSpotify - Web Player: Music for everyone</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="./src/favicon-0f31d2ea.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="main">
+    <div class="header">
+      <img src="./src/favicon32-b64ecc03.png" alt="logo" class="logo" />
+      <div class="search-wrapper">
+        <div class="icon-circle">
+          <i class="fas fa-home"></i>
+        </div>
+        <div class="search-bar">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Ide Cyber nera galla pannagam avvachu" />
+          <div class="vertical-line"></div>
+          <i class="fas fa-box-archive"></i>
+        </div>
+      </div>
+      <div class="center">
+        <a href="#">Premium</a>
+        <a href="#">Support</a>
+        <a href="#">Download</a>
+        <div class="divider"></div>
+        <a href="#"><i class="fas fa-download"></i> Install App</a>
+        <a href="#">Sign up</a>
+      </div>
+      <div class="right">
+        <button class="login-btn">Log in</button>
+      </div>
+    </div>
+
+    <!-- FLEX container below header -->
+    <div class="content-area">
+      <div class="spotify-sidebar">
+        <div class="library-header">
+          <h2>Your Library</h2>
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="card">
+          <h3>Sare babu ne playlist create chey</h3>
+          <p>Aboo nokkina labam ledu le</p>
+          <button>Nokku babu</button>
+        </div>
+        <div class="card">
+          <h3>Sarle pravachanalu anna vintava</h3>
+          <p>oohh nek antha bhakthi ledu emo le</p>
+          <button>Pravachanalu</button>
+        </div>
+        <div class="footer-links">
+          <a href="#">EggPuff</a>
+          <a href="#">Samosa</a>
+          <a href="#">Bread omelette</a>
+          <a href="#">Pizza</a>
+          <a href="#">Burger</a>
+          <a href="#">VegPuff</a>
+        </div>
+        <div class="language-selector">
+          <i class="fas fa-globe"></i>
+          <span>Telugu</span>
+        </div>
+      </div>
+
+      <div class="maincontent">
+        <div class="section">
+          <div class="section made-for">
+            <div class="filter-bar">
+              <button class="filter active">All</button>
+              <button class="filter">Music</button>
+              <button class="filter">Podcasts</button>
+            </div>
+
+            <div class="section-header">
+              <h2 class="madefor">Ivi chesindi<br><span>Gowtham kosam</span></h2>
+              <a href="#" class="show-all">Show all</a>
+            </div>
+
+            <div class="card-row">
+              <div class="media-card">
+                <img src="./src/thanu.svg" />
+                <h4>Thanu</h4>
+                <p>Nenu padiunte bagundu kani nenu kadu le</p>
+              </div>
+              <div class="media-card">
+                <img src="./src/prema.svg" />
+                <h4>Prema Velluva</h4>
+                <p>Gowtham,Sita, Geetha</p>
+              </div>
+              <div class="media-card">
+                <img src="./src/ninnu.svg" />
+                <h4>Ninnu kori</h4>
+                <p>Nani,NivethaThomas Aadi</p>
+              </div>
+              <!-- Add more cards if needed -->
+            </div>
+          </div>
+
+          <div class="section-header">
+            <h2>Charts</h2>
+            <a href="#" class="show-all">Show all</a>
+          </div>
+          <div class="card-row">
+            <div class="media-card">
+              <img src="./src/hits.svg" alt="cover" />
+              <h4>Hot Hits Telugu</h4>
+              <p>Manchi patalu le lendi</p>
+            </div>
+            <div class="media-card">
+              <img src="./src/tel10.svg" alt="cover" />
+              <h4>Telugu Top 10</h4>
+              <p>Telugu lo top 10 songs marutuntai le</p>
+            </div>
+            <div class="media-card">
+              <img src="./src/allout.svg" alt="cover" />
+              <h4>2000's Hits</h4>
+              <p>Apputlo manchi patalu undive le</p>
+            </div>
+            <div class="media-card">
+              <img src="./src/chai.svg" alt="cover" />
+              <h4>Chai & Classics</h4>
+              <p>Chai taguthu chill avvu</p>
+            </div>
+            <div class="media-card">
+              <img src="./src/tollywood.svg" alt="cover" />
+              <h4>Tollwood songs</h4>
+              <p>Best tollywood songs telugu lo</p>
+            </div>
+            <div class="media-card">
+              <img src="./src/feel.svg" alt="cover" />
+              <h4>Feel Good</h4>
+              <p>Manchi feel good songs telugu</p>
+            </div>
+            <div class="media-card">
+              <img src="./src/chill.svg" alt="cover" />
+              <h4>Chill Songs</h4>
+              <p>Manchi Chill songs telugu lo</p>
+            </div>
+            <div class="media-card">
+              <img src="./src/trending.svg" alt="cover" />
+              <h4>Trending Songs</h4>
+              <p>Present trend avutunnavi</p>
+            </div>
+          </div>
+          <h2 class="artist-title">Popular artists</h2>
+          <div class="new-artist-row">
+            <div class="artist-card">
+              <div class="artist-image-wrapper">
+                <img src="./src/artist1.jpg" alt="Gowtham" />
+              </div>
+              <h4>Gowtham</h4>
+              <p>Pedda Gayakudu</p>
+            </div>
+
+            <div class="artist-card">
+              <div class="artist-image-wrapper">
+                <img src="./src/artist2.jpg" alt="Sree" />
+              </div>
+              <h4>Sree</h4>
+              <p>Tiruguleni Gayakudu</p>
+            </div>
+
+            <div class="artist-card">
+              <div class="artist-image-wrapper">
+                <img src="./src/artist3.jpg" alt="Charan" />
+              </div>
+              <h4>Charan</h4>
+              <p>Pedda Singer</p>
+            </div>
+
+            <div class="artist-card">
+              <div class="artist-image-wrapper">
+                <img src="./src/artist4.jpg" alt="Charan" />
+              </div>
+              <h4>Alluri Seetha Rama Raju</h4>
+              <p>Nenu Freedom fighter</p>
+            </div>
+
+            <div class="artist-card">
+              <div class="artist-image-wrapper">
+                <img src="./src/artist5.jpg" alt="Charan" />
+              </div>
+              <h4>Reddy</h4>
+              <p>Rayalseema lo pedda singer le</p>
+            </div>
+
+            <div class="artist-card">
+              <div class="artist-image-wrapper">
+                <img src="./src/artist8.jpg" alt="Charan" />
+              </div>
+              <h4>Rolex</h4>
+              <p>Ha!Ha!Ha! Life time settlement</p>
+            </div>
+
+            <div class="artist-card">
+              <div class="artist-image-wrapper">
+                <img src="./src/artist6.jpg" alt="Charan" />
+              </div>
+              <h4>Meennn</h4>
+              <p>Nuv aristhe arupule,nenu aristhe merupule</p>
+            </div>
+
+            <div class="artist-card">
+              <div class="artist-image-wrapper">
+                <img src="./src/artist7.jpg" alt="Charan" />
+              </div>
+              <h4>Geethh</h4>
+              <p>Fluteuuu jinka mundu odhu bro</p>
+            </div>
+
+
+
+            <!-- Add more artist-card blocks similarly -->
+          </div>
+
+          <div class="section">
+            <div class="section-header">
+              <h2>Popular albums and singles</h2>
+              <a href="#" class="show-all">Show all</a>
+            </div>
+
+            <div class="card-row">
+              
+
+              <div class="album-card">
+                <img src="./src/darshana.svg" alt="Darshana" />
+                <h4>Darshana</h4>
+                <p>Na fav movie,fav song</p>
+              </div>
+
+              <div class="album-card">
+                <img src="./src/hinanna.svg" alt="hi" />
+                <h4>Samayama</h4>
+                <p>Pataaythe bane untundi</p>
+              </div>
+
+              <div class="album-card">
+                <img src="./src/orange.svg" alt="orange" />
+                <h4>Orange</h4>
+                <p>Manchi Patalu</p>
+              </div>
+
+              <div class="album-card">
+                <img src="./src/aedil.svg" alt="aedil" />
+                <h4>Channa Mereya</h4>
+                <p>Ee pata gurinchi matladanu</p>
+              </div>
+
+              <div class="album-card">
+                <img src="./src/anadala.svg" alt="anadala" />
+                <h4>Yemito</h4>
+                <p>Pata manade</p>
+              </div>
+              <div class="album-card">
+                <img src="./src/animal.svg" alt="animal" />
+                <h4>Ammayi</h4>
+                <p>Hindi version kuda baguntundi</p>
+              </div>
+              <div class="album-card">
+                <img src="./src/Arjun.svg" alt="Arjun" />
+                <h4>Arjun Reddy</h4>
+                <p>Main Character</p>
+              </div>
+
+              <div class="album-card">
+                <img src="./src/ohsita.svg" alt="sita" />
+                <h4>Sita Ramam</h4>
+                <p>Oh!sita... Oh!sita..</p>
+              </div>
+
+              <div class="album-card">
+                <img src="./src/magadheera.svg" alt="magadheera" />
+                <h4>Magadheera</h4>
+                <p>Appatlo tirugu leni cinema</p>
+              </div>
+
+              <div class="album-card">
+                <img src="./src/geeta.svg" alt="Geeta" />
+                <h4>Geeta Govindam</h4>
+                <p>Ee cinema oka record appatlo</p>
+              </div>
+
+              <div class="album-card">
+                <img src="./src/agnata.svg" alt="animal" />
+                <h4>Agnatavasi</h4>
+                <p>Cinema pakkana pedithe songs baguntai</p>
+              </div>
+
+              <div class="album-card">
+                <img src="./src/kubera.svg" alt="Kubera" />
+                <h4>Kubera</h4>
+                <p>Padindi Evaro telidu</p>
+              </div>
+              
+            </div>
+          </div>
+          <footer class="spotify-footer">
+            <div class="footer-top">
+              <div class="footer-columns">
+                <div class="footer-column">
+                  <h4>Mana Company lu</h4>
+                  <a href="#">Singareni</a>
+                  <a href="#">Central Railway</a>
+                  <a href="#">Milk Dairy</a>
+                </div>
+                <div class="footer-column">
+                  <h4>Na Communities</h4>
+                  <a href="#">Mithra binda</a>
+                  <a href="#">Uggani Sangam</a>
+                  <a href="#">Pani leni sangam</a>
+                  <a href="#">Food sangam</a>
+                </div>
+                <div class="footer-column">
+                  <h4>Oh naku youtube undi</h4>
+                  <a href="https://www.youtube.com/channel/UC4lfIvgWhWnnPrAnMvAihNQ">Ide nokku</a>
+                  <a href="https://www.youtube.com/channel/UC4lfIvgWhWnnPrAnMvAihNQ">Ide ayna nokku</a>
+                </div>
+                <div class="footer-column">
+                  <h4>Ide aythe free ne kani</h4>
+                  <a href="#">Premium Individual</a>
+                  <a href="#">Premium Duo</a>
+                  <a href="#">Premium Family</a>
+                  <a href="#">Premium Student</a>
+                  <a href="#">Paina vatilo okati aythe best</a>
+                </div>
+              </div>
+
+              <div class="social-icons">
+                <a href="https://www.instagram.com/gowthamrdyy/"> <i class="fab fa-instagram"></i></a>
+                <a href="https://x.com/gowthamrdyy"> <i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/gowtham.reddy.9440234/"><i class="fab fa-facebook-f"></i></a>
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="footer-bottom">
+              <div class="footer-links">
+                <a href="#">Uggani</a>
+                <a href="#">Dosa</a>
+                <a href="#">Idli</a>
+                <a href="#">Bepu Rotti</a>
+                <a href="#">Maggi</a>
+                <a href="#">Sambhar</a>
+              </div>
+              <p class="copyright">Chana &#128147; tho chesina sami</p>
+            </div>
+          </footer>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  <div class="player">
+    <div class="player-bar">
+      <div class="track-info">
+        <img src="./src/thanu.svg" alt="Album Art" />
+        <div class="track-text">
+          <h4>Thanu (From "Hit - 3") (Telugu)</h4>
+          <p>Gowtham, Anirudh Ravichander, Nithya</p>
+        </div>
+      </div>
+
+      <div class="player-controls">
+        <div class="controls-top">
+          <i class="fas fa-random"></i>
+          <i class="fas fa-step-backward"></i>
+          <button class="play-btn"><i class="fas fa-play"></i></button>
+          <i class="fas fa-step-forward"></i>
+          <i class="fas fa-quote-right"></i>
+        </div>
+        <div class="progress-container">
+          <span>0:59</span>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 44%"></div>
+          </div>
+          <span>4:08</span>
+        </div>
+      </div>
+
+      <div class="extra-controls">
+        <i class="fas fa-desktop"></i>
+        <i class="fas fa-pen"></i>
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-film"></i>
+        <i class="fas fa-volume-up"></i>
+        <div class="volume-bar">
+          <div class="volume-fill" style="width: 40%"></div>
+        </div>
+        <i class="fas fa-expand"></i>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
