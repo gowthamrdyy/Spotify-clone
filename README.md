@@ -6,7 +6,7 @@ Welcome to **Spotify Clone**, a pixel-perfect recreation of Spotify’s iconic i
 
 ## 🎬 Live Demo
 
-> 🔗 [View the Live Project](spotify-iota-orcin.vercel.app)
+> 🔗 [View the Live Project](https://spotify-iota-orcin.vercel.app/)
 
 
 ---
@@ -66,7 +66,7 @@ Coming up: full **JavaScript integration** for a working music player, interacti
 ## 🧑‍💻 Author
 
 Made with ❤️ by **[Your Name]**   
-📸 [Instagram](https://instagram.com/gowthmrdyy)  
+📸 [Instagram](https://instagram.com/gowthmrdyy/)  
 💼 [LinkedIn](https://linkedin.com/in/gowthamrdyy)
 
 ---
