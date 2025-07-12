@@ -65,7 +65,7 @@ Coming up: full **JavaScript integration** for a working music player, interacti
 
 ## 🧑‍💻 Author
 
-Made with ❤️ by **[Your Name]**   
+Made with ❤️ by **[Gowtham]**   
 📸 [Instagram](https://instagram.com/gowthmrdyy/)  
 💼 [LinkedIn](https://linkedin.com/in/gowthamrdyy)
 
