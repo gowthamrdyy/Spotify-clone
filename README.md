@@ -78,6 +78,6 @@ Spotify™ and all related trademarks are owned by **Spotify AB**.
 
 ---
 
-> “Music gives a soul to the universe, wings to the mind, flight to the imagination.” – Gowtham sree
+> “Music gives a soul to the universe, wings to the mind, flight to the imagination.” – Gowtham sree charan
 
 
