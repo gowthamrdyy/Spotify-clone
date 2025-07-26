@@ -74,7 +74,7 @@ Made with ❤️ by **[Gowtham]**
 ## 📄 License
 
 This project is for **educational and portfolio use only**.  
-Spotify™ and all related trademarks are owned by **Spotify AB**.
+Spotify™ and all related trademarks are owned by **Spotify**.
 
 ---
 
